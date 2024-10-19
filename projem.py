@@ -22,23 +22,29 @@ def projem():
 
     secim = input("Bir sayı giriniz;")
 
-    if secim == "1" : hesapmak.hesapmakinesi.hesapmakinesimenu()
-    projem()
+    if secim == "1" : 
+        hesapmak.hesapmakinesi.hesapmakinesimenu()
+        projem()
     
-    elif secim == "2" : cizim.cizimler.cizimlermenu()
-    projem()
+    elif secim == "2" : 
+        cizim.cizimler.cizimlermenu()
+        projem()
 
-    elif secim == "3" : takvim.takvim.takvimmenu()
-    projem()
+    elif secim == "3" : 
+        takvim.takvim.takvimmenu()
+        projem()
 
-    elif secim == "4" : resim.resimler.resimlermenu()
-    projem()
+    elif secim == "4" : 
+        resim.resimler.resimlermenu()
+        projem()
 
-    elif secim == "5" : notlar.nothesaplama.nothesaplamamenu()
-    projem()
+    elif secim == "5" : 
+        notlar.nothesaplama.nothesaplamamenu()
+        projem()
 
     else : 
-    print("Lütfen geçerli bir sayı giriniz.")
+        print("Lütfen geçerli bir sayı giriniz.")
+        projem()
 
 projem()
 
